@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" maxHeight="500.0" maxWidth="450.0" minHeight="600.0" minWidth="600.0" prefHeight="500.0" prefWidth="450.0" style="-fx-background-color: #8e9292;" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <GridPane maxHeight="460.0" maxWidth="450.0" minHeight="460.0" minWidth="450.0" prefHeight="460.0" prefWidth="450.0" style="-fx-border-width: 5; -fx-background-color: #ced7d8; -fx-border-color: #ced7d8;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="144.0" minWidth="10.0" prefWidth="65.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="325.0" minWidth="10.0" prefWidth="315.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="119.0" minWidth="10.0" prefWidth="65.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="182.0" minHeight="10.0" prefHeight="41.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="242.0" minHeight="10.0" prefHeight="194.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="150.0" minHeight="150.0" prefHeight="150.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="80.0" minHeight="40.0" prefHeight="80.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="76.0" prefWidth="445.0" style="-fx-text-fill: #3b4d61; -fx-background-color: #ced7d8;" text="ATM Simulator" textAlignment="RIGHT" GridPane.columnSpan="3">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #316879;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Pane>
+            <TextField fx:id="textField1" editable="false" layoutX="30.0" layoutY="187.0" maxHeight="50.0" maxWidth="180.0" style="-fx-background-color: #316879; -fx-border-width: 1; -fx-border-color: #ced7d8; -fx-border-radius: 5; -fx-background-insets: 1; -fx-background-radius: 10;" GridPane.columnSpan="2" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="15.0" top="25.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="textField3" editable="false" maxHeight="50.0" maxWidth="180.0" style="-fx-background-color: #316879; -fx-border-width: 1; -fx-border-color: #ced7d8; -fx-border-radius: 5; -fx-background-insets: 1; -fx-background-radius: 10;" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="15.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="textField2" editable="false" maxHeight="50.0" maxWidth="180.0" style="-fx-background-color: #316879; -fx-border-width: 1; -fx-border-color: #ced7d8; -fx-border-radius: 5; -fx-background-insets: 1; -fx-background-radius: 10;" GridPane.columnSpan="2" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="15.0" top="80.0" />
+               </GridPane.margin>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></TextField>
+            <TextField fx:id="textField4" editable="false" maxHeight="50.0" maxWidth="180.0" style="-fx-background-color: #316879; -fx-border-width: 1; -fx-border-color: #ced7d8; -fx-border-radius: 5; -fx-background-radius: 10; -fx-background-insets: 1;" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets right="15.0" top="25.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="textField5" editable="false" maxHeight="50.0" maxWidth="180.0" style="-fx-background-color: #316879; -fx-border-width: 1; -fx-border-color: #ced7d8; -fx-border-radius: 5; -fx-background-insets: 1; -fx-background-radius: 10;" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets right="15.0" top="80.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></TextField>
+            <TextField fx:id="textField6" editable="false" maxHeight="50.0" maxWidth="180.0" style="-fx-background-color: #316879; -fx-border-color: #ced7d8; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-insets: 1; -fx-background-radius: 10;" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+               <GridPane.margin>
+                  <Insets bottom="3.0" right="15.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <Button fx:id="buttonS1" contentDisplay="CENTER" maxHeight="40.0" maxWidth="40.0" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#handleSideButton1" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets top="30.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="buttonS2" maxHeight="40.0" maxWidth="40.0" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#handleSideButton2" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets top="21.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="buttonS3" maxHeight="40.0" maxWidth="40.0" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#handleSideButton3" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+               <GridPane.margin>
+                  <Insets bottom="8.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="buttonS4" maxHeight="40.0" maxWidth="40.0" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#handleSideButton4" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets top="30.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="buttonS5" maxHeight="40.0" maxWidth="40.0" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#handleSideButton5" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets top="21.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="buttonS6" maxHeight="40.0" maxWidth="40.0" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#handleSideButton6" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+               <GridPane.margin>
+                  <Insets bottom="8.0" />
+               </GridPane.margin></Button>
+            <GridPane maxHeight="150.0" maxWidth="215.0" minHeight="150.0" minWidth="227.0" prefHeight="150.0" prefWidth="215.0" style="-fx-background-color: #316879; -fx-border-image-width: 2;" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2" GridPane.valignment="TOP">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="99.0" minWidth="10.0" prefWidth="48.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="0.0" prefWidth="43.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="79.0" minWidth="10.0" prefWidth="44.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="97.0" minWidth="60.0" prefWidth="90.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="button1" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="30.0" prefWidth="30.0" text="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Button fx:id="button2" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="30.0" prefWidth="30.0" text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Button fx:id="button3" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="30.0" prefWidth="30.0" text="3" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Button fx:id="cancelButton" mnemonicParsing="false" onAction="#handleCancelButton" style="-fx-font-weight: bold; -fx-background-color: #CA3433;" text="CANCEL" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="11.0" />
+                     </font></Button>
+                  <Button fx:id="button4" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="30.0" prefWidth="30.0" text="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                  <Button fx:id="button5" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="30.0" prefWidth="30.0" text="5" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                  <Button fx:id="button6" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="30.0" prefWidth="30.0" text="6" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                  <Button fx:id="clearButton" maxHeight="24.0" maxWidth="58.0" mnemonicParsing="false" onAction="#handleClearButton" style="-fx-background-color: #ffd300; -fx-font-weight: bold;" text="CLEAR" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="11.0" />
+                     </font></Button>
+                  <Button fx:id="button7" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="30.0" prefWidth="30.0" text="7" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                  <Button fx:id="button8" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="30.0" prefWidth="30.0" text="8" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                  <Button fx:id="button9" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="30.0" prefWidth="30.0" text="9" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                  <Button fx:id="enterButton" maxHeight="24.0" maxWidth="58.0" mnemonicParsing="false" onAction="#handleEnterButton" style="-fx-background-color: #03c04a; -fx-font-weight: bold;" text="ENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="11.0" />
+                     </font></Button>
+                  <Button fx:id="button0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="30.0" prefWidth="30.0" text="0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+                  <Separator maxHeight="140.0" maxWidth="3.0" minHeight="140.0" minWidth="3.0" orientation="VERTICAL" prefHeight="140.0" prefWidth="3.0" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowSpan="4">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="30.0" />
+                     </GridPane.margin>
+                  </Separator>
+                  <Separator maxHeight="3.0" maxWidth="110.0" minHeight="3.0" minWidth="110.0" prefHeight="3.0" prefWidth="110.0" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin></Separator>
+                  <Separator layoutX="24.0" layoutY="48.0" maxHeight="3.0" maxWidth="110.0" minHeight="3.0" minWidth="110.0" prefHeight="3.0" prefWidth="110.0" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="TOP" />
+                  <Separator layoutX="24.0" layoutY="86.0" maxHeight="3.0" maxWidth="110.0" minHeight="3.0" minWidth="110.0" prefHeight="3.0" prefWidth="110.0" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM" />
+                  <Separator layoutX="58.0" layoutY="15.0" maxHeight="125.0" maxWidth="3.0" minHeight="140.0" minWidth="3.0" orientation="VERTICAL" prefHeight="125.0" prefWidth="3.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowSpan="4">
+                     <GridPane.margin>
+                        <Insets top="30.0" />
+                     </GridPane.margin>
+                  </Separator>
+               </children>
+            </GridPane>
+            <ImageView fx:id="cardAnimation" fitHeight="150.0" fitWidth="120.0" onMouseClicked="#handleCardMouseClick" onMouseEntered="#handleCardHover1" onMouseExited="#handleCardHover2" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></ImageView>
+            <ImageView fx:id="moneyAnimation" fitHeight="80.0" fitWidth="313.0" onMouseClicked="#handleMoneyClick" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></ImageView>
+            <Separator prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Separator>
+            <PasswordField fx:id="pinField" alignment="CENTER" editable="false" maxHeight="50.0" minHeight="50.0" prefHeight="50.0" style="-fx-background-color: #316879;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </PasswordField>
+            <Label fx:id="amountLabel" alignment="CENTER" maxHeight="50.0" maxWidth="210.0" minHeight="50.0" minWidth="210.0" style="-fx-background-color: #316879;" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font></Label>
+            <Label fx:id="textArea" alignment="TOP_CENTER" contentDisplay="CENTER" graphicTextGap="0.0" maxHeight="140.0" maxWidth="313.0" minHeight="140.0" minWidth="313.0" prefHeight="140.0" prefWidth="313.0" style="-fx-background-color: #316879;" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="accountNumberLabel" alignment="CENTER" contentDisplay="CENTER" minHeight="50.0" minWidth="210.0" style="-fx-background-color: #316879;" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font></Label>
+         </children>
+      </GridPane>
+   </children>
+</GridPane>

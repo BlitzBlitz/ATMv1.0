@@ -1,0 +1,4 @@
+#316879				blue	
+#f47a60, 			orange
+#7fe7dc,			aquamarine
+#ced7d8			gray
